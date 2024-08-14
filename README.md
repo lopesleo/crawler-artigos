@@ -12,8 +12,8 @@ Este projeto é um crawler de artigos que coleta artigos de um site específico 
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/lopesleo/crawler-artigos)
+   cd crawler-artigos
    ```
 
 2. Crie um ambiente virtual e ative-o:
