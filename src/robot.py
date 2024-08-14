@@ -52,5 +52,4 @@ class Robot:
         texto = ""
         for elemento in elementos:
             texto += elemento.text + "\n"
-
-        return 
+        return texto
