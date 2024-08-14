@@ -9,8 +9,8 @@ def main():
         load_dotenv()
         robot = Robot(timeout=10)
         nome_pasta = os.getenv("NOME_PASTA")
-        fileutils.deletar_pasta()
-        fileutils.criar_pasta()
+        fileutils.deletar_pasta(nome_pasta)
+        fileutils.criar_pasta(nome_pasta)
         url_artigos = os.getenv("URL_ARTIGOS")
         robot.open(url_artigos)
         artigos =  []
