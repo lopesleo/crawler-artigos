@@ -1,6 +1,4 @@
-Aqui está o `README.md` com alguns emojis para torná-lo mais visualmente atraente:
 
-```markdown
 # 📰 Crawler de Artigos
 
 Este projeto é um crawler de artigos que coleta artigos de um site específico e salva o conteúdo em arquivos de texto.
