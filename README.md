@@ -1,4 +1,4 @@
-
+Aqui está o `README.md` com alguns emojis para torná-lo mais visualmente atraente:
 
 ```markdown
 # 📰 Crawler de Artigos
@@ -14,8 +14,8 @@ Este projeto é um crawler de artigos que coleta artigos de um site específico 
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/lopesleo/crawler-artigos
-   cd crawler-artigos
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
    ```
 
 2. Crie um ambiente virtual e ative-o:
@@ -64,4 +64,4 @@ Este projeto é um crawler de artigos que coleta artigos de um site específico 
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
-```
+
