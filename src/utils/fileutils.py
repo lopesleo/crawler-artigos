@@ -12,4 +12,4 @@ def criar_artigo_txt(pasta,artigo):
         file.write(artigo.get_conteudo())
         
 def remover_caracteres_especiais(texto):
-    return texto.encode("ascii", "ignore").decode("ascii")
+    return texto.encode("ascii", "ignore").decode("ascii").replace("/","-")

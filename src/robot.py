@@ -46,8 +46,11 @@ class Robot:
             return False
     
     def pegar_conteudo_artigo(self):
-        xpath = '//div[@class="entry-content"]'
+        xpath = '//div[@class="entry-content"]//p | //div[@class="entry-content"]//h2'
         self.wait.until(EC.presence_of_element_located((By.XPATH, xpath)))
-        elemento = self.driver.find_element(By.XPATH, xpath)
-        return elemento.text
-    
+        elementos = self.driver.find_elements(By.XPATH, xpath)
+        texto = ""
+        for elemento in elementos:
+            texto += elemento.text + "\n"
+
+        return 
